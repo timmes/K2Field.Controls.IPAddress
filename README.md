@@ -5,7 +5,7 @@ IP Address Control
 
 The K2Field.Controls.IPAddress is a custom K2 smartforms control that is returning the IP address of the user.
 
-Getting Started 
+Getting Started
 ---------------
 
 It's up to you how you install the IP Address Control.
@@ -18,12 +18,12 @@ Other methods:
   * Run the Copy the K2NE.IsilonOneFS.ServiceBroker.dll into the RegisterCustomControl.bat to automatically install the control (*An IIS reset will be automatically performed afterwards.*)
   * Use the control directly on your Form or View
 
-**Note:** 
+**Note:**
 
 <!-- section links -->
 [chocolatey]: https://github.com/chocolatey/choco
 
-Documentation 
+Documentation
 -------------
 
 tba
@@ -36,15 +36,15 @@ tba
 Issues
 ------
 
-Discovered a bug? Please create an issue here on GitHub!
+Discovered a bug? Or have a feature suggestion? Please create an issue here on GitHub!
 
-https://github.com/timmes/K2NE.IsilonOneFS.ServiceBroker/issues
+https://github.com/timmes/K2Field.Controls.IPAddress/issues
 
 Maintainers
 -----------
 
-* **Tim Czubayko** 
-  * [@timmes](https://twitter.com/timmes) 
+* **Tim Czubayko**
+  * [@timmes](https://twitter.com/timmes)
   * [GitHub](https://github.com/timmes)
 
 * **You?**
@@ -52,8 +52,8 @@ Maintainers
 Authors
 -------
 
-* **Tim Czubayko** 
-  * [@timmes](https://twitter.com/timmes) 
+* **Tim Czubayko**
+  * [@timmes](https://twitter.com/timmes)
   * [GitHub](https://github.com/timmes)
 
 License
