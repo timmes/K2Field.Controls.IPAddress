@@ -12,21 +12,6 @@ Download the latest repo individually:
 * Run the Copy the K2NE.IsilonOneFS.ServiceBroker.dll into the RegisterCustomControl.bat to automatically install the control (*An IIS reset will be automatically performed afterwards.*)
  * Use the control directly on your Form or View
 
-**Note:**
-
-<!-- section links -->
-[chocolatey]: https://github.com/chocolatey/choco
-
-Documentation
--------------
-
-tba
-
-Examples
---------
-
-tba
-
 Issues
 ------
 
