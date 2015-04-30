@@ -1,5 +1,3 @@
-**Work in progess. Not usable at the moment!**
-
 IP Address Control
 =======================
 
