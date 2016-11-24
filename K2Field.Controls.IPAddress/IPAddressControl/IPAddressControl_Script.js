@@ -1,6 +1,8 @@
 ﻿//NOTE: alert() statements are available for debugging purposes. You can uncomment the statements to show dialogs when each method is hit.
 (function ($) {
     //TODO: if necessary, add additional statements to initialize each part of the namespace before your IPAddressControl is called. 
+    if (typeof K2Field === "undefined" || K2Field == null) K2Field = {};
+    if (typeof K2Field.Controls === "undefined" || K2Field.Controls == null) K2Field.Controls = {};
     if (typeof K2Field.Controls.IPAddress === "undefined" || K2Field.Controls.IPAddress == null) K2Field.Controls.IPAddress = {};
 
     K2Field.Controls.IPAddress.IPAddressControl = {
@@ -40,9 +42,10 @@
 
         //retrieve a property for the control
         getProperty: function (objInfo) {
+            debugger;
             //alert("getProperty(" + objInfo.property + ") for control " + objInfo.CurrentControlId);
-            if (objInfo.property.toLowerCase() == "value") {
-                return K2Field.Controls.IPAddress.IPAddressControl.getValue(objInfo);
+            if (objInfo.property.toLowerCase() == "text") {
+                return $('#' + objInfo.CurrentControlId + '_propertiesLabel').text();
             }
             else {
                 return $('#' + objInfo.CurrentControlId).data(objInfo.property);
