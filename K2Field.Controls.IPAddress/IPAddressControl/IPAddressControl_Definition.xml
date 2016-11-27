@@ -29,9 +29,6 @@
     <Prop ID="Text"  friendlyname="Text" type="string" category="Detail" refreshdisplay="true" inputlength="255">
       <!--you can set a default value by setting the <Value> for the <Prop>-->
     </Prop>
-    <!--Value is the "default" value for the control, retrieved with control.Value in the .js code-->
-    <!--<Prop ID="Value" friendlyname="Value" type="string" category="Detail" refreshdisplay="true"/>-->
-    <!--IsVisible is used to show or hide the control -->
     <Prop ID="IsVisible" friendlyname="Visible" type="bool" category="General" refreshdisplay="true">
       <Value>true</Value>
     </Prop>
@@ -41,7 +38,7 @@
     </Prop>
     <!--OutputDebugInfo is a custom property used to show the controls properties at runtime for debugging purposes. -->
     <Prop ID="OutputDebugInfo" friendlyname="Output Debug Info" type="bool" category="General">
-      <Value>true</Value>
+      <InitialValue>true</InitialValue>
     </Prop>
     <!--"ControlExpression" is used when you want to allow the designer to set the control value with an expression-->
     <Prop ID="ControlExpression" friendlyname="Expression" type="complex" category="General" DesignerSet="SourceCode.Forms.Designers.View.Conditions._showControlCalculation" />
